@@ -16,7 +16,12 @@ body {
 .container {
   position: absolute;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 15vh;
+}
+
+.variables {
+  text-align: left;
+  margin-left: 30%;
 }
 
 ul {
