@@ -13,6 +13,12 @@ body {
   background: gainsboro;
 }
 
+.container {
+  position: absolute;
+  text-align: center;
+  margin-top: 20%;
+}
+
 ul {
   list-style: none;
 }
@@ -23,8 +29,6 @@ a {
 }
 
 #example {
-  margin-top: 20rem;
-  position: absolute;
   max-width: 700px;
   padding: 20px;  
   transition: 500ms;
@@ -41,8 +45,7 @@ a {
 }
 
 .stuffs {
-  position: absolute;
-  margin-top: 5rem;
+  
 }
 
 .btn1,
@@ -76,7 +79,6 @@ input[type="color"]::-webkit-color-swatch {
 
 #accentcol1:hover {
   text-decoration: underline;
-  margin-top: 1rem;
 }
 
 button {
@@ -89,9 +91,8 @@ button:hover {
 }
 
 .evenmore {
-  position: absolute;
-  margin-top: 50rem;
-  font-size: 2rem
+  font-size: 2rem;
+  padding: 20%;
 }
 
 #below {
@@ -99,16 +100,4 @@ button:hover {
   margin: 8px;
   padding: 16px;
   border-radius: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-  .evenmore {
-    margin-top: 55rem;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .evenmore {
-    margin-top: 60rem;
-  }
 }
