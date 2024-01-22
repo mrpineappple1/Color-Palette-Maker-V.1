@@ -1,0 +1,113 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background: gainsboro;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+#example {
+  margin-top: 20rem;
+  position: absolute;
+  max-width: 700px;
+  padding: 20px;  
+  transition: 500ms;
+}
+
+#example h1 {
+  text-align: center;
+}
+
+.stuff1 {
+  display: flex;
+  gap: 2%;
+}
+
+.stuffs {
+  position: absolute;
+  margin-top: 5rem;
+}
+
+.btn1,
+.btn2 {
+  border-radius: 20px;
+  background: ghostwhite;
+  border: none;
+  padding: 16px;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+.variables p {
+  font-size: 2rem;
+}
+
+#accentcol1:hover {
+  text-decoration: underline;
+  margin-top: 1rem;
+}
+
+button {
+  transition: 500ms;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-0.4rem);
+}
+
+.evenmore {
+  position: absolute;
+  margin-top: 50rem;
+  font-size: 2rem
+}
+
+#below {
+  text-align: center;
+  margin: 8px;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .evenmore {
+    margin-top: 55rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .evenmore {
+    margin-top: 60rem;
+  }
+}
