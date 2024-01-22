@@ -1,3 +1,3 @@
-A random project i made at 3 in the morning
-
-CSS is horrible in this but the conxept of the app is good.
+this kinda sucks.
+let me kow what features i sould add
+(this file also works as an update log)
