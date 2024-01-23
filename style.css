@@ -35,7 +35,7 @@ a {
 
 #example {
   max-width: 700px;
-  padding: 20px;  
+  padding: 20px;
   transition: 500ms;
   border-radius: 30px;
 }
@@ -49,9 +49,7 @@ a {
   gap: 2%;
 }
 
-.stuffs {
-  
-}
+.stuffs {}
 
 .btn1,
 .btn2 {
@@ -105,4 +103,30 @@ button:hover {
   margin: 8px;
   padding: 16px;
   border-radius: 20px;
+}
+
+.colorproportions {
+  width: 90%;
+  border: 2px solid black;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.colorproportions > * {
+  height: 100px;
+}
+
+.dback,
+.dtext {
+  width: 30%;
+}
+
+.dsecond,
+.daccent {
+  width: 15%
+}
+
+.dprim {
+  width: 10%;
 }
